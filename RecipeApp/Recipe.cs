@@ -11,7 +11,7 @@ namespace RecipeApp
         /// </summary>
         public enum RecipeDifficulty
         {
-            Easy, Moderate, Challenging, MasterChef;
+            Easy, Moderate, Challenging, MasterChef
         }
 
         #region Attributes
@@ -61,7 +61,7 @@ namespace RecipeApp
         }
 
         /// <summary>
-        /// The time in minutes it takes to prepare the meal from this recie.
+        /// The time in minutes it takes to prepare the meal from this recipe.
         /// </summary>
         public int Minutes
         {
