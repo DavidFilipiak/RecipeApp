@@ -6,10 +6,14 @@ namespace RecipeApp
 {
     class Recipe
     {
+        public enum RecipeDifficulty
+        {
+            Easy, Moderate, Challenging, MasterChef;
+        }
+
         private string name;
         private string descripiton;
-
-
+        
         public string Name
         {
             get { return this.name; }
