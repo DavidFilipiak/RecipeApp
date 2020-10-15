@@ -14,6 +14,7 @@ namespace RecipeApp
         private string name;
         private string descripiton;
         private RecipeDifficulty difficulty;
+        private int portionAmount;
         
         public string Name
         {
@@ -31,6 +32,12 @@ namespace RecipeApp
         {
             get { return this.difficulty; }
             set { this.difficulty = value; }
+        }
+
+        public int PortionAmount
+        {
+            get { return this.portionAmount; }
+            set { this.portionAmount = value; }
         }
     }
 }
