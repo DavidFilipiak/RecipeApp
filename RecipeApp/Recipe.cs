@@ -66,7 +66,7 @@ namespace RecipeApp
         public int Minutes
         {
             get { return this.minutes; }
-            set { this.portionAmount = value; }
+            set { this.minutes = value; }
         }
         #endregion
     }
